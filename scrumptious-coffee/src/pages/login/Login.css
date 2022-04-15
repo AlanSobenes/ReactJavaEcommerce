@@ -1,0 +1,24 @@
+.login-container {
+  margin-top: 4rem;
+  padding: 2rem;
+}
+
+.login-register-btn {
+  margin-left: 2rem;
+}
+
+.login-register-link {
+  text-decoration: none;
+  color: white;
+  margin: 0;
+}
+
+.login-register-link:hover {
+  text-decoration: none;
+}
+
+@media (min-width: 1000px) {
+  .login-container {
+    padding: 5rem 15rem;
+  }
+}

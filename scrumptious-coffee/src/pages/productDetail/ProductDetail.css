@@ -1,0 +1,174 @@
+.product-Detail-Title {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.product-detail-wrapper {
+  margin-top: 4rem;
+}
+
+#listgroup-border {
+  border: none;
+}
+
+.qty-counter {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.qty-margin {
+  margin-right: 5px;
+}
+
+.qty-counter {
+  width: 150px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+#qty-title {
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 12px;
+}
+
+.count-amount {
+  width: 100%;
+  text-align: center;
+  height: 10px;
+  font-size: 25px;
+}
+
+#product-asc {
+  background: var(--green);
+  width: 50px;
+  height: 40px;
+  border: none;
+  color: white;
+}
+
+#product-desc {
+  background: var(--green);
+  width: 50px;
+  height: 40px;
+  border: none;
+  color: white;
+}
+
+#product-asc:hover {
+  background: white;
+  color: var(--green);
+  font-weight: 800;
+  border: 1px solid var(--green);
+}
+
+#product-desc:hover {
+  background: white;
+  color: var(--green);
+  font-weight: 800;
+  border: 1px solid var(--green);
+}
+
+#product-add-cart {
+  background: var(--green);
+  color: white;
+  width: 13rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-price {
+  font-size: 20px;
+}
+
+.product-price-container {
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.add-text {
+  margin-right: 20px;
+}
+
+.cart-icon {
+  position: relative;
+  bottom: 3px;
+}
+
+#product-add-cart:hover {
+  background: white;
+  color: var(--green);
+  border: 1px solid var(--green);
+}
+
+.product-add-container {
+  display: flex;
+  justify-content: center;
+}
+
+.product-description {
+  margin-left: 10px;
+}
+
+#roast-location {
+  margin-left: 10px;
+}
+
+@media (min-width: 1000px) {
+  .product-detail-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    margin-top: 4rem;
+  }
+
+  .product-price {
+    margin-left: 16px;
+    margin-top: 20px;
+  }
+
+  .product-price-container {
+    margin-bottom: 35px;
+  }
+
+  #qty-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 29rem;
+  }
+
+  .card2 {
+    margin-left: 1rem;
+    align-items: center;
+  }
+
+  .product-detail-card {
+    padding: 2rem;
+  }
+
+  .product-detail-page-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40%;
+  }
+
+  .product-description {
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    width: 40rem;
+  }
+
+  #roast-location {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 0;
+    margin-bottom: 150px;
+  }
+}

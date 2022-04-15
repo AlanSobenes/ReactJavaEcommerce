@@ -1,0 +1,45 @@
+.footer {
+  background-color: #a68965;
+  color: white;
+  font-size: 0.75rem;
+}
+
+.footer-links {
+  margin-right: 22px;
+}
+
+.footer-links:hover {
+  color: green;
+}
+
+.links-container {
+  margin: 0 auto;
+}
+
+.footer-links:hover {
+  color: green;
+}
+
+.links-container {
+  margin: 0 auto;
+}
+
+@media (min-width: 1000px) {
+  .footer-row {
+    display: flex;
+  }
+
+  .footer-links {
+    margin-right: 258px;
+    text-decoration: none;
+    color: white;
+  }
+
+  .footer {
+    height: 60px;
+    position: fixed !important;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
